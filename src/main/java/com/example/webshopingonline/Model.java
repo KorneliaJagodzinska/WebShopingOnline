@@ -6,5 +6,6 @@ import java.util.List;
 public class Model {
     public static void main(String[] args) {
         List<String> names= Arrays.asList("Kasia", "basia", "zosia");
+        names.forEach(System.out::println);
     }
 }
